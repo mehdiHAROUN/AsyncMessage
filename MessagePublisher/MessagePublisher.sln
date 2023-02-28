@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagePublisher", "MessagePublisher.csproj", "{1C652AFF-7711-41A9-9C9E-A5FF5F168E24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionMessageReader", "..\FunctionMessageReader\FunctionMessageReader.csproj", "{1D51686B-9E62-4AF3-9733-352B8BACCBE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C652AFF-7711-41A9-9C9E-A5FF5F168E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C652AFF-7711-41A9-9C9E-A5FF5F168E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C652AFF-7711-41A9-9C9E-A5FF5F168E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C652AFF-7711-41A9-9C9E-A5FF5F168E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D51686B-9E62-4AF3-9733-352B8BACCBE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D51686B-9E62-4AF3-9733-352B8BACCBE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D51686B-9E62-4AF3-9733-352B8BACCBE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D51686B-9E62-4AF3-9733-352B8BACCBE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {659E0DA5-FAD3-4F77-AB56-0568707665FE}
+	EndGlobalSection
+EndGlobal
