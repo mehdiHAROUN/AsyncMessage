@@ -4,7 +4,7 @@ namespace MessagePublisher
 {
     public class Publisher
     {
-        private const string serviceBusConnectionString = "Endpoint=sb://sezame.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=h2eNJDlmqGKJgw4BlAhw4U5FIKW9mTHp8+ASbDtg0+A=";
+        private const string serviceBusConnectionString = "serviceBusConnectionString";
         private const string queueName = "foundation-object";
         private const int numOfMessages = 3;
         static ServiceBusClient client = default!;
